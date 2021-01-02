@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 class User
-     def add(name)
-       @name = name
-       puts "User adicionado"
-       hello
-     end
-    
-     def hello
-       puts "Seja bem vindo, #{@name}!"
-     end
+   def add(name)
+      @name = name
+     puts 'User adicionado'
+     hello
+   end
+
+   def hello
+     puts "Seja bem vindo, #{@name}!"
+   end
 end
-    
+
 user = User.new
 user.add('João')

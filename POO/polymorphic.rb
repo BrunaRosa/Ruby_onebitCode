@@ -4,7 +4,7 @@ class Instrumento
   def escrever
     puts 'Escrevendo'
   end
-  end
+end
 
 class Lapis < Instrumento
   def escrever

@@ -2,7 +2,7 @@
 
 def compare(a, b)
   a > b
-   end
+end
 
 a = 1
 b = 2

@@ -8,7 +8,7 @@ class Animal
    def dormir
      puts 'ZzZzzz!'
    end
-    end
+end
 
 class Cachorro < Animal
    def latir

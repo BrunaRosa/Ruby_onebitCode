@@ -1,8 +1,10 @@
-class Produto
-    attr_accessor :name, :price
+# frozen_string_literal: true
 
-    def initialize(name, price)
-        @name = name
-        @price = price
-    end
+class Produto
+  attr_accessor :name, :price
+
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
 end

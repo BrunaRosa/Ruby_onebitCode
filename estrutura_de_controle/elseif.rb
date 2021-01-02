@@ -2,9 +2,10 @@
 
 day = 'Holiday'
 
-lunch = if day == 'Sunday'
+lunch = case day
+        when 'Sunday'
           'special'
-        elsif day == 'Holiday'
+        when 'Holiday'
           'later'
         else
           'normal'

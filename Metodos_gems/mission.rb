@@ -2,7 +2,7 @@
 
 def potencializar(_base, expoente)
    base**expoente
-    end
+end
 
 print 'Digite o número base: '
 base = gets.chomp.to_i

@@ -19,36 +19,37 @@ loop do
   number_1 = gets.chomp.to_i
   number_2 = gets.chomp.to_i
 
-  if option == 1
+  case option
+  when 1
     first_question
     number_1
     second_question
     number_2
     soma = number_1 + number_2
     result = "A soma dos números #{number_1} e #{number_2} é: #{soma}"
-  elsif option == 2
+  when 2
     first_question
     number_1
     second_question
     number_2
     subtração = number_1 - number_2
     result = "A subtração dos números #{number_1} e #{number_2} é: #{subtração}"
-  elsif option == 3
+  when 3
     first_question
     number_1
     second_question
     number_2
     multiplicação = number_1 * number_2
     result = "A multiplicação dos números #{number_1} e #{number_2} é: #{multiplicação}"
-  elsif option == 4
+  when 4
     first_question
     number_1
     second_question
     number_2
     divisão = number_1 - number_2
     result = "A divisão dos números #{number_1} e #{number_2} é: #{divisão}"
-  elsif option == 0
-    break if option == 0
+  when 0
+    break if option.zero?
   else
     result = 'Opção inválida'
   end
